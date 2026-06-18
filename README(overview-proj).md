@@ -1,10 +1,10 @@
-# 🗳️ Smart Election Management & Voter Analytics System
+#  Smart Election Management & Voter Analytics System
 
 A terminal-based, modular C++ application that modernizes election administration using classical Data Structures and Algorithms — built from scratch without STL for core structures.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Democratic processes handle millions of voter records and require immense logistical coordination. Managing voter registrations, preventing fraudulent voting, tracking polling station capacities, and establishing efficient transport routes for election materials are critical for conducting fair elections.
 
@@ -12,7 +12,7 @@ This system is designed to streamline election operations through optimized data
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Process voter registration requests using **Queue** data structures
 - Provide secure, instant voter verification using **Hash Tables**
@@ -26,7 +26,7 @@ This system is designed to streamline election operations through optimized data
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system operates as a unified terminal application segmented into highly modular header files:
 
@@ -49,7 +49,7 @@ dsa-case-study/
 
 ---
 
-## 🧩 Data Structures & Algorithms
+## Data Structures & Algorithms
 
 | Component | Structure / Algorithm | Complexity |
 |---|---|---|
@@ -65,7 +65,7 @@ dsa-case-study/
 
 ---
 
-## 🔧 Implementation Highlights
+##  Implementation Highlights
 
 - **Custom Templates** — `Stack<T>` and `Queue<T>` built from scratch using linked lists
 - **Custom Hashing** — Polynomial rolling hash distributes voter IDs across a 211-bucket array of vectors
@@ -74,7 +74,7 @@ dsa-case-study/
 
 ---
 
-## ⚙️ Setup & Execution
+##  Setup & Execution
 
 ### Prerequisites
 - C++ compiler (`g++` recommended)
@@ -94,7 +94,7 @@ g++ main_new.cpp -o election_system
 
 ---
 
-## 🖥️ Sample Walkthrough
+## Sample Walkthrough
 
 ### Step 1 — Submit a Registration Request (Queue)
 
@@ -155,8 +155,17 @@ Shortest distance from Election HQ:
 ```
 
 ---
+## Screenshots-
+<img width="432" height="670" alt="Screenshot 2026-06-18 at 10 08 38 AM" src="https://github.com/user-attachments/assets/386996eb-bf87-4e05-9299-bde935ee6204" />
+<img width="463" height="575" alt="Screenshot 2026-06-18 at 10 08 50 AM" src="https://github.com/user-attachments/assets/97b78288-e202-4f1d-9710-6554fbb20f60" />
+<img width="396" height="211" alt="Screenshot 2026-06-18 at 10 09 49 AM" src="https://github.com/user-attachments/assets/a0ca8780-166d-4c67-a7b8-226db14a4dad" />
+<img width="455" height="458" alt="Screenshot 2026-06-18 at 10 10 04 AM" src="https://github.com/user-attachments/assets/bf15fd6a-b65f-42a8-8b21-c6d80441d727" />
 
-## 📊 Results & Observations
+
+
+
+
+## Results & Observations
 
 - The **Hash Table** provided instantaneous O(1) verification and successfully prevented duplicate votes
 - The **Stack** reliably reverted both registration counts and vote casts without corrupting the historical BST/AVL ledger
@@ -165,7 +174,7 @@ Shortest distance from Election HQ:
 
 ---
 
-## 📚 Conclusion
+##  Conclusion
 
 The Smart Election Management & Voter Analytics System demonstrates how classical DSA can modernize real-world civic administration:
 
@@ -176,4 +185,3 @@ The Smart Election Management & Voter Analytics System demonstrates how classica
 - **Graphs + Dijkstra** → Optimal logistics routing
 - **Merge Sort** → Dynamic station prioritization
 
-> Built as a comprehensive demonstration of memory-efficient data management and modular C++ design.
